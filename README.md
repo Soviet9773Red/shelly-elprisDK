@@ -56,7 +56,7 @@ Uppdatera firmware till version 1.4.4 eller högre. Äldre versioner stöds inte
 4. Gå till Settings -> Location and Time, välj tidszon Europe/Stockholm och klicka på Save Settings.
 5. Gå till Settings -> Device name. Sätt ett namn på din enhet. -> Save
 6. Öppna länken till skriptet på GitHub:
-👉 [shelly-elprisSE_3.1.1dk-rc.js](https://github.com/Soviet9773Red/shelly-elprisDK/blob/main/shelly-elprisDK_3.1.1dk-rc.js)
+👉 [shelly-elprisDK_3.1.1dk-rc.js](https://github.com/Soviet9773Red/shelly-elprisDK/blob/main/shelly-elprisDK_3.1.1dk-rc.js)
 Välj Download eller kopiera råfilen. Spara filen i Notepad eller på disken.
 7. Gå till Settings → Device Name. Sätt ett namn på din enhet. Klicka sedan på "Save".
 8. Klistra in skriptets text, klicka på Save och sedan Start.
