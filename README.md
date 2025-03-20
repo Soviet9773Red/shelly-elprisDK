@@ -96,7 +96,7 @@ elpris-DK: logic for #1 done, cmd: true -> output: true
 
 Scriptet er testet på:  
 **Shelly Plus 1, Plus 1PM, Pro 3, Plus Plug S**  
-Ifølge [Jussi Isotalo](http://jisotalo.fi) fungerer det også på:  
+Ifølge [Jussi Isotalo](http://jisotalo.fi) [fungerer](https://github.com/jisotalo/shelly-porssisahko-en?tab=readme-ov-file#shelly-devices) det også på:  
 **Shelly Plus 2PM, Pro 1, Pro 2, Pro 4PM, Pro 3EM + Switch Add-on, Plus UNI, Plus 1 Mini**  
 Jeg har dog ikke selv testet disse.
 
