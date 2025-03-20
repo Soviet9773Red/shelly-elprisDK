@@ -31,7 +31,7 @@ Observera att inga globala ändringar har gjorts i funktionaliteten jämfört me
 
 ## Huvudsakliga ändringar (changelog): 
 - **API-anrop:**  
-  Ändrat från den estniska API-adressen i `.csv`-format ([Elering](https://elering.ee/)) till den svenska i JSON-format ([Elprisenligenu.dk](https://www.elprisenligenu.dke/)).  
+  Ändrat från den estniska API-adressen i `.csv`-format ([Elering](https://elering.ee/)) till den svenska i JSON-format ([Elprisenligenu.dk](https://www.elprisenligenu.dk/)).  
 - **Regioner:**  
   Stöd för svenska elområden DK1-DK2 har lagts till, medan Finland och Baltikum har tagits bort.  
 - **Design:**  
