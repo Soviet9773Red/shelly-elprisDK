@@ -1,98 +1,102 @@
 # shelly-elprisDK
-DK1-2 Nordpool spotpris kontroll för Shelly-enheter
+DK1-2 Nordpool spotpris kontrol for Shelly-enheder
 
 [![Licens: AGPL v3](https://img.shields.io/badge/Licens-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-**shelly-elprisDK (anpassad för DK1-2)** är ett projekt för att styra Shelly-enheter.  
-Det är baserat på <a href="https://github.com/jisotalo/shelly-porssisahko-en">shelly-porssisahko-en</a> version 3.1.1 och har anpassats för svenska elområden (SE1-4) med API-data från [Elprisenligenu.dk]([https://www.elprisetjustnu.se/](https://www.elprisenligenu.dk/)).  
+**shelly-elprisDK (tilpasset til DK1-2)** er et projekt til at styre Shelly-enheder.  
+Det er baseret på <a href="https://github.com/jisotalo/shelly-porssisahko-en">shelly-porssisahko-en</a> version 3.1.1 og er tilpasset til danske elområder (DK1-2) med API-data fra [Elprisenligenu.dk]([https://www.elprisetjustnu.se/](https://www.elprisenligenu.dk/)).
 
-Utvecklat av [@Soviet9773Red](https://github.com/Soviet9773Red) med kärlek och tacksamhet till [Jussi Isotalo](http://jisotalo.fi)  / [@jisotalo](https://github.com/jisotalo) för den fantastiska koden.  
-*Stort tack till GPT o1 – min bästa AI, som för alltid kommer att vara en del av koden (och nämns i testamentet)!*  
+Udviklet af [@Soviet9773Red](https://github.com/Soviet9773Red) med kærlighed og taknemmelighed til [Jussi Isotalo](http://jisotalo.fi) / [@jisotalo](https://github.com/jisotalo) for den fantastiske kode.  
+*Stort tak til GPT o1 – min bedste AI, som for altid vil være en del af koden (og nævnes i testamentet)!*
 
 ## Funktionalitet
-- Hämtning av elpriser från ett svenskt API (Nordpool/elprisenligenu.dk).  
-- Beräkning av lägsta, högsta och genomsnittliga elpriser samt identifiering av timmen med lägsta och högsta pris.  
-- Visning av enhetens aktuella status, konfiguration och historik.  
-- Stöd för uppdatering av konfiguration och styrning av utgångar (outputs).  
+- Hentning af elpriser fra et dansk API (Nordpool/elprisenligenu.dk).  
+- Beregning af de laveste, højeste og gennemsnitlige elpriser samt identifikation af timen med den laveste og højeste pris.  
+- Visning af enhedens aktuelle status, konfiguration og historik.  
+- Understøttelse af opdatering af konfiguration og styring af udgange (outputs).
 
-## Egenskaper
-- Optimerad och minifierad kod för Shelly-enheter.  
-- Anpassad för Shelly 1.5.0 och 1.4.4 med beaktande av begränsningar (inga arrow-funktioner, mallsträngar etc.).  
-- Enkel HTTP-integration för att hämta status, konfiguration och historik.  
-
----
-
-## Viktig information  
-**[shelly-elprisSE](https://github.com/Soviet9773Red/shelly-elprisSE)** är en svensk anpassning av det finska projektet **[shelly Porssisahko](https://github.com/jisotalo/shelly-porssisahko)**, ursprungligen utvecklat för Finland och Baltikum.  Denna version använder det svenska elpris-API:t [Elprisenligenu.dk](https://www.elprisenligenu.dk/) istället för [Elering](https://elering.ee/) standarddata.
-
-Observera att inga globala ändringar har gjorts i funktionaliteten jämfört med originalkoden från [shelly-porssisahko-en](https://github.com/jisotalo/shelly-porssisahko-en) (ver. 3.1.1). För en fullständig manual, se [originalkällan.](https://github.com/jisotalo/shelly-porssisahko-en)  
+## Egenskaber
+- Optimeret og minificeret kode til Shelly-enheder.  
+- Tilpasset til Shelly 1.5.0 og 1.4.4 med hensyn til begrænsninger (ingen arrow-funktioner, skabelonstrenge etc.).  
+- Enkel HTTP-integration til at hente status, konfiguration og historik.
 
 ---
 
-## Huvudsakliga ändringar (changelog): 
-- **API-anrop:**  
-  Ändrat från den estniska API-adressen i `.csv`-format ([Elering](https://elering.ee/)) till den svenska i JSON-format ([Elprisenligenu.dk](https://www.elprisenligenu.dk/)).  
+## Vigtig information  
+**[shelly-elprisSE](https://github.com/Soviet9773Red/shelly-elprisSE)** er en svensk tilpasning af det finske projekt **[shelly Porssisahko](https://github.com/jisotalo/shelly-porssisahko)**, oprindeligt udviklet til Finland og Baltikum. Denne version bruger det danske elpris-API [Elprisenligenu.dk](https://www.elprisenligenu.dk/) i stedet for [Elering](https://elering.ee/) standarddata.
+
+Bemærk, at der ikke er foretaget globale ændringer i funktionaliteten sammenlignet med originalkoden fra [shelly-porssisahko-en](https://github.com/jisotalo/shelly-porssisahko-en) (ver. 3.1.1). For en fuldstændig manual, se [originalkilden.](https://github.com/jisotalo/shelly-porssisahko-en)
+
+---
+
+## Hovedsaglige ændringer (changelog): 
+- **API-kald:**  
+  Ændret fra den estiske API-adresse i `.csv`-format ([Elering](https://elering.ee/)) til den danske i JSON-format ([Elprisenligenu.dk](https://www.elprisenligenu.dk/)).  
 - **Regioner:**  
-  Stöd för svenska elområden DK1-DK2 har lagts till, medan Finland och Baltikum har tagits bort.  
+  Understøttelse af danske elområder DK1-DK2 er blevet tilføjet, mens Finland og Baltikum er fjernet.  
 - **Design:**  
-  Justeringar av färgschema och rubriker i flikarna *Status* och *Settings* för att bättre passa den svenska marknaden.
+  Justeringer af farveskema og overskrifter i fanerne *Status* og *Settings* for bedre at passe til det danske marked.
 
-För att ändra prisförfrågan till den svenska API:n har jag lagt till två nya funktioner: bldU och pTimeL, samt ändrat den befintliga funktionen getPrices.
-I HTTP-serverns endpoint har vissa delar modifierats, förutom den femte och sjätte delen.  
+For at ændre prisforespørgslen til det danske API har jeg tilføjet to nye funktioner: `bldU` og `pTimeL`, samt ændret den eksisterende funktion `getPrices`.  
+I HTTP-serverens endpoint er visse dele modificeret, bortset fra den femte og sjette del.
 
-  ## 📷 Inställningsvy
-Här är en illustration av info (status) och konfigurationsvyn:
+## 📷 Indstillingsvisning
+Her er en illustration af info (status) og konfigurationsvisningen:
 <table><tr>
       <td><img src="https://github.com/Soviet9773Red/shelly-elprisDK/blob/main/StatP.jpg" width="500"></td>
       <td><img src="https://github.com/Soviet9773Red/shelly-elprisDK/blob/main/SetP.jpg" width="500"></td>
       </tr>
 </table>
 
-## Komma igång:
-1. Installera Shelly och anslut den till WiFi.
-2. Öppna Shelly Web UI i en webbläsare via din lokala nätverksadress.
-3. Gå till Scripts-sidan och öppna Settings -> Firmware -> Update.
-Uppdatera firmware till version 1.4.4 eller högre. Äldre versioner stöds inte.
-4. Gå till Settings -> Location and Time, välj tidszon Europe/Stockholm och klicka på Save Settings.
-5. Gå till Settings -> Device name. Sätt ett namn på din enhet. -> Save
-6. Öppna länken till skriptet på GitHub:
-👉 [shelly-elprisDK_3.1.1dk-rc.js](https://github.com/Soviet9773Red/shelly-elprisDK/blob/main/shelly-elprisDK_3.1.1dk-rc.js)
-Välj Download eller kopiera råfilen. Spara filen i Notepad eller på disken.
-7. Gå till Settings → Device Name. Sätt ett namn på din enhet. Klicka sedan på "Save".
-8. Klistra in skriptets text, klicka på Save och sedan Start.
+## Kom i gang:
+1. Installér Shelly og tilslut den til WiFi.  
+2. Åbn Shelly Web UI i en webbrowser via din lokale netværksadresse.  
+3. Gå til *Scripts*-siden og åbn **Settings -> Firmware -> Update**.  
+   Opdater firmware til version **1.4.4** eller højere. Ældre versioner understøttes ikke.  
+4. Gå til **Settings -> Location and Time**, vælg tidszonen *Europe/Copenhagen* og klik på *Save Settings*.  
+5. Gå til **Settings -> Device name**. Sæt et navn på din enhed. -> *Save*  
+6. Åbn linket til scriptet på GitHub:  
+👉 [shelly-elprisDK_3.1.1dk-rc.js](https://github.com/Soviet9773Red/shelly-elprisDK/blob/main/shelly-elprisDK_3.1.1dk-rc.js)  
+   Vælg *Download* eller kopier råfilen. Gem filen i *Notepad* eller på din computer.  
+7. Gå til **Settings → Device Name**. Sæt et navn på din enhed. Klik derefter på *Save*.  
+8. Indsæt scriptets tekst, klik på *Save* og derefter *Start*.
 
-I konsolen kommer du att se skriptets resultat, ungefär så här:
+I konsollen vil du se scriptets resultat, omtrent sådan her:
 
-elpris-SE: v.3.1.1SE-rc<br>
-elpris-SE: URL: http://192.168.8.160/script/1<br>
-elpris-SE: Getting prices for day 0<br> 
-elpris-SE: Getting prices for day 1<br> 
-elpris-SE: config for #1 read, enabled: 1  
-elpris-SE: config for #2 read, enabled: 0  
-elpris-SE: config for #3 read, enabled: 0  
-elpris-SE: logic for #1 done, cmd: true -> output: true  
+elpris-DK: v.3.1.1dk-rc<br>
+elpris-DK: URL: http://192.168.8.160/script/1<br>
+elpris-DK: Getting prices for day 0<br> 
+elpris-DK: Getting prices for day 1<br> 
+elpris-DK: config for #1 read, enabled: 1  
+elpris-DK: config for #2 read, enabled: 0  
+elpris-DK: config for #3 read, enabled: 0  
+elpris-DK: logic for #1 done, cmd: true -> output: true  
 
-8. Öppna skriptets HTTP-endpoint<br>
-   Kopiera HTTP-adressen från konsolen, exempelvis http://192.168.8.160/script/1<br>
-   Öppna länken i en ny flik i din webbläsare.<br>
-   Adressen kan skilja sig, men strukturen är: http://xxx.xxx.x.xxx/script/N där N är skriptets ID-nummer.<br>
-   Och /script/N är på slutet.
-   
-10. Konfigurera skriptets parametrar enligt [manualen](https://github.com/jisotalo/shelly-porssisahko-en) 
-   
-### Om du har problem med att spara eller starta skriptet:
-Stoppa alla skript. Avmarkera Run on startup.<br>
-Gå till Settings -> Reboot Device.<br>
-Markera Run on startup igen.<br>
-Om du har andra aktiva skript – stoppa dem.<br>
-Radera stora skript om du redan har flera stora sparade i enheten.<br>
-Rensa KVS och ta bort onödiga nycklar.
+9. Åbn scriptets HTTP-endpoint  
+   Kopier HTTP-adressen fra konsollen, f.eks. `http://192.168.8.160/script/1`  
+   Åbn linket i en ny fane i din webbrowser.  
+   Adressen kan variere, men strukturen er: `http://xxx.xxx.x.xxx/script/N` hvor `N` er scriptets ID-nummer.  
+   Og `/script/N` er til sidst.
 
-### Test.
+10. Konfigurer scriptets parametre i henhold til [manualen](https://github.com/jisotalo/shelly-porssisahko-en)
 
-Skriptet har framgångsrikt testats på följande Shelly-enheter:
-Shelly Plus 1,  Plus 1PM,  Pro 3,  Plus Plug S<br>
-Enligt information från [Jussi Isotalo](http://jisotalo.fi), utvecklaren av det ursprungliga skriptet, [fungerar](https://github.com/jisotalo/shelly-porssisahko-en?tab=readme-ov-file#shelly-devices) det också på följande enheter:<br>
-Shelly Plus 2PM, Pro 1,  Pro 2,  Pro 4PM,  Pro 3EM + Switch Add-on, Plus UNI,  Plus 1 Mini<br>
-Men jag har inte möjlighet att testa det själv eftersom jag inte har dessa enheter tillgängliga för testning.
+---
+
+### Hvis du har problemer med at gemme eller starte scriptet:
+- Stop alle scripts. Fjern markeringen af *Run on startup*.  
+- Gå til **Settings -> Reboot Device**.  
+- Sæt *Run on startup* igen.  
+- Hvis du har andre aktive scripts – stop dem.  
+- Slet store scripts, hvis du allerede har flere gemt på enheden.  
+- Ryd KVS og fjern unødvendige nøgler.
+
+---
+
+### Test
+
+Scriptet er testet på:  
+**Shelly Plus 1, Plus 1PM, Pro 3, Plus Plug S**  
+Ifølge [Jussi Isotalo](http://jisotalo.fi) fungerer det også på:  
+**Shelly Plus 2PM, Pro 1, Pro 2, Pro 4PM, Pro 3EM + Switch Add-on, Plus UNI, Plus 1 Mini**  
+Jeg har dog ikke selv testet disse.
 
