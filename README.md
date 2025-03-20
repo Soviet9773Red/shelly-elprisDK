@@ -58,8 +58,7 @@ Her er en illustration af info (status) og konfigurationsvisningen:
 6. Åbn linket til scriptet på GitHub:  
 👉 [shelly-elprisDK_3.1.1dk-rc.js](https://github.com/Soviet9773Red/shelly-elprisDK/blob/main/shelly-elprisDK_3.1.1dk-rc.js)  
    Vælg *Download* eller kopier råfilen. Gem filen i *Notepad* eller på din computer.  
-7. Gå til **Settings → Device Name**. Sæt et navn på din enhed. Klik derefter på *Save*.  
-8. Indsæt scriptets tekst, klik på *Save* og derefter *Start*.
+7. Indsæt scriptets tekst, klik på *Save* og derefter *Start*.
 
 I konsollen vil du se scriptets resultat, omtrent sådan her:
 
@@ -72,13 +71,13 @@ elpris-DK: config for #2 read, enabled: 0
 elpris-DK: config for #3 read, enabled: 0  
 elpris-DK: logic for #1 done, cmd: true -> output: true  
 
-9. Åbn scriptets HTTP-endpoint  
+8. Åbn scriptets HTTP-endpoint  
    Kopier HTTP-adressen fra konsollen, f.eks. `http://192.168.8.160/script/1`  
    Åbn linket i en ny fane i din webbrowser.  
    Adressen kan variere, men strukturen er: `http://xxx.xxx.x.xxx/script/N` hvor `N` er scriptets ID-nummer.  
    Og `/script/N` er til sidst.
 
-10. Konfigurer scriptets parametre i henhold til [manualen](https://github.com/jisotalo/shelly-porssisahko-en)
+9. Konfigurer scriptets parametre i henhold til [manualen](https://github.com/jisotalo/shelly-porssisahko-en)
 
 ---
 
