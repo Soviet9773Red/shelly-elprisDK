@@ -23,7 +23,7 @@ Udviklet af [@Soviet9773Red](https://github.com/Soviet9773Red) med kærlighed og
 ---
 
 ## Vigtig information  
-**[shelly-elprisSE](https://github.com/Soviet9773Red/shelly-elprisSE)** er en svensk tilpasning af det finske projekt **[shelly Porssisahko](https://github.com/jisotalo/shelly-porssisahko)**, oprindeligt udviklet til Finland og Baltikum. Denne version bruger det danske elpris-API [Elprisenligenu.dk](https://www.elprisenligenu.dk/) i stedet for [Elering](https://elering.ee/) standarddata.
+**[shelly-elprisSE](https://github.com/Soviet9773Red/shelly-elprisSE)** er en dansk tilpasning af det finske projekt **[shelly Porssisahko](https://github.com/jisotalo/shelly-porssisahko)**, oprindeligt udviklet til Finland og Baltikum. Denne version bruger det danske elpris-API [Elprisenligenu.dk](https://www.elprisenligenu.dk/) i stedet for [Elering](https://elering.ee/) standarddata.
 
 Bemærk, at der ikke er foretaget globale ændringer i funktionaliteten sammenlignet med originalkoden fra [shelly-porssisahko-en](https://github.com/jisotalo/shelly-porssisahko-en) (ver. 3.1.1). For en fuldstændig manual, se [originalkilden.](https://github.com/jisotalo/shelly-porssisahko-en)
 
