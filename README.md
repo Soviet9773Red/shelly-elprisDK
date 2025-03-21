@@ -58,7 +58,8 @@ Her er en illustration af info (status) og konfigurationsvisningen:
 6. Åbn linket til scriptet på GitHub:  
 👉 [shelly-elprisDK_3.1.1dk-rc.js](https://github.com/Soviet9773Red/shelly-elprisDK/blob/main/shelly-elprisDK_3.1.1dk-rc.js)  
    Vælg *Download* eller kopier råfilen. Gem filen i *Notepad* eller på din computer.  
-7. Indsæt scriptets tekst, klik på *Save* og derefter *Start*.
+7. Gå til Scripts → Create script og skriv ElprisetDK som Script name.
+Indsæt scriptets tekst, klik på Save og derefter Start.
 
 I konsollen vil du se scriptets resultat, omtrent sådan her:
 
@@ -98,4 +99,12 @@ Scriptet er testet på:
 Ifølge [Jussi Isotalo](http://jisotalo.fi) [fungerer](https://github.com/jisotalo/shelly-porssisahko-en?tab=readme-ov-file#shelly-devices) det også på:  
 **Shelly Plus 2PM, Pro 1, Pro 2, Pro 4PM, Pro 3EM + Switch Add-on, Plus UNI, Plus 1 Mini**  
 Jeg har dog ikke selv testet disse.
+
+
+### Støt projektet!
+Jeg bliver tit sulten, når jeg koder – 🍔 [giv mig en Big Mac og en kaffe](https://buymeacoffee.com/soviet9773red)
+
+[![Big Mac](https://img.shields.io/badge/Buy%20me%20a%20🍔-Big%20Mac-yellow?style=for-the-badge)](https://buymeacoffee.com/soviet9773red)
+
+Tak skal du have!
 
