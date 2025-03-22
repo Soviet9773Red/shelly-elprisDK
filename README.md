@@ -100,6 +100,12 @@ Ifølge [Jussi Isotalo](http://jisotalo.fi) [fungerer](https://github.com/jisota
 **Shelly Plus 2PM, Pro 1, Pro 2, Pro 4PM, Pro 3EM + Switch Add-on, Plus UNI, Plus 1 Mini**  
 Jeg har dog ikke selv testet disse.
 
+Jeg har testet scriptet på mine egne enheder og bemærket, at det ikke altid er stabilt ved prisforespørgsler – det kan nogle gange stoppe på grund af hukommelsesoverløb.
+
+Derfor er jeg meget taknemmelig for enhver, der kan hjælpe med test og fejlrapportering.
+
+Netop af denne grund har versionsnummeret endelsen rc (release candidate).
+
 
 ### Støt projektet!
 Jeg bliver tit sulten, når jeg koder – 🍔 [giv mig en Big Mac og en kaffe](https://buymeacoffee.com/soviet9773red)
