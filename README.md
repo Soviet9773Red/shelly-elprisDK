@@ -100,7 +100,7 @@ Ifølge [Jussi Isotalo](http://jisotalo.fi) [fungerer](https://github.com/jisota
 **Shelly Plus 2PM, Pro 1, Pro 2, Pro 4PM, Pro 3EM + Switch Add-on, Plus UNI, Plus 1 Mini**  
 Jeg har dog ikke selv testet disse.
 
-Jeg har testet scriptet på mine egne enheder og bemærket, at det ikke altid er stabilt ved prisforespørgsler – det kan nogle gange stoppe på grund af hukommelsesoverløb.
+Ved egne tests har jeg bemærket, at scriptet ikke altid er helt stabilt ved prisforespørgsler – det kan i visse tilfælde stoppe på grund af hukommelsesoverløb.
 
 Derfor er jeg meget taknemmelig for enhver, der kan hjælpe med test og fejlrapportering.
 
